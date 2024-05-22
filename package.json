@@ -9,17 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
+    "@novu/echo": "latest",
+    "@novu/node": "^0.24.1",
+    "@react-email/components": "0.0.17",
+    "axios": "^1.6.8",
+    "mjml": "^4.15.3",
     "next": "14.1.0",
-    "@novu/echo": "latest"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/mjml": "^4.7.4",
+    "@types/mjml-react": "^2.0.10",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
   }
 }
