@@ -7,7 +7,7 @@ export async function POST(request: Request) {
 
   await novu.trigger('mjml-email-workflow', {
     to: {
-      subscriberId: 'echo-sub-two',
+      subscriberId: 'novu-sub-two',
       email: res.email
     },
     payload: {

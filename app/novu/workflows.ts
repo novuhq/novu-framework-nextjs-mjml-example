@@ -1,12 +1,12 @@
-import { Echo } from "@novu/echo";
+import { Client, workflow } from "@novu/framework";
 import { mjmlTemplate } from "./mjml";
 
-export const echo = new Echo({
+export const client = new Client({
   apiKey: '<Your Novu API Key>',
-  devModeBypassAuthentication: process.env.NODE_ENV === "development",
+  strictAuthentication: process.env.NODE_ENV !== "development",
 });
 
-echo.workflow('mjml-email-workflow', async ({ payload, step }) => {
+export const emailWorkflow = workflow('mjml-email-workflow', async ({ payload, step }) => {
   await step.email('send-email', async (inputs) => {
 
 

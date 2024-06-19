@@ -24,5 +24,5 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Echo documntation](https://docs.novu.co/echo/quickstart)
-- [Echo guides](https://docs.novu.co/guides/echo-guides/echo-react-email)
+- [Novu Framework documentation](https://docs.novu.co/framework/quickstart)
+- [Framework guides](https://docs.novu.co/guides/framework-guides/framework-react-email)

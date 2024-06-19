@@ -27,7 +27,7 @@ export default function Home() {
   };
   return (
     <div>
-      <h1>MJML Email with Novu Echo</h1>
+      <h1>MJML Email with Novu Framework</h1>
       <input placeholder='Enter customer name' onChange={e => setText(e.target.value)} value={text} />
       <input placeholder='Enter customer email' onChange={e => setEmail(e.target.value)} value={email} />
       <button onClick={triggerWorkflow} disabled={loading}>
